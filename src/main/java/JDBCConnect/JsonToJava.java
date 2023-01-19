@@ -22,7 +22,7 @@ ResultSet rs= st.executeQuery("select * from CustomerInfo where purchasedDate=CU
 	while(rs.next())
 	{
 		CustomerDetails cust= new CustomerDetails();   //here we reterive it from the java only
-		cust.setCourseName(rs.getString(1));
+		cust.setCourseName(rs.getString(1));      //using set- we insert and get-we reterive
 		cust.setPurchasedDate(rs.getString(2));
 		cust.setAmount(rs.getInt(3));
 		cust.setLocation(rs.getString(4));
