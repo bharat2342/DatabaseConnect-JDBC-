@@ -17,7 +17,7 @@ public class ConnectToDataBase
 	  
 	  //Object of statememnt class will help us to execute the queries
 	 Statement st= connect.createStatement();
-	ResultSet rs= st.executeQuery("select * from CustomerInfo where purchasedDate=CURDATE() and Location ='Asia';");
+	ResultSet rs= st.executeQuery("select * from CustomerInfo where purchasedDate=CURDATE()-4 and Location ='Asia';");
 	//Now query for single will be
 	//(select * from CustomerInfo where purchasedDate=CURDATE() and Location ='Asia' LIMIT 1;)
 	//rs is kind of array which stores the values of the queries
