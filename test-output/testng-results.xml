@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-23T23:39:32 IST" name="Default suite" finished-at="2023-01-23T23:39:33 IST" duration-ms="918">
+  <suite started-at="2023-01-28T23:52:57 IST" name="Default suite" finished-at="2023-01-28T23:52:57 IST" duration-ms="96">
     <groups>
     </groups>
-    <test started-at="2023-01-23T23:39:32 IST" name="Default test" finished-at="2023-01-23T23:39:33 IST" duration-ms="918">
-      <class name="TestNGDataProvider.DataProvidePlusDataFromExcel">
-        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGDataProvider.DataProvidePlusDataFromExcel@77c2494c]" started-at="2023-01-23T23:39:33 IST" name="testCaseData" data-provider="driveTest" finished-at="2023-01-23T23:39:33 IST" duration-ms="9" status="PASS">
+    <test started-at="2023-01-28T23:52:57 IST" name="Default test" finished-at="2023-01-28T23:52:57 IST" duration-ms="96">
+      <class name="TestNGDataProvider.DataProvide">
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,int)[pri:0, instance:TestNGDataProvider.DataProvide@291ae]" started-at="2023-01-28T23:52:57 IST" name="testCaseData" data-provider="driveTest" finished-at="2023-01-28T23:52:57 IST" duration-ms="23" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Hello]]>
+                <![CDATA[hello]]>
               </value>
             </param>
             <param index="1">
@@ -28,11 +28,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseData -->
-        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGDataProvider.DataProvidePlusDataFromExcel@77c2494c]" started-at="2023-01-23T23:39:33 IST" name="testCaseData" data-provider="driveTest" finished-at="2023-01-23T23:39:33 IST" duration-ms="2" status="PASS">
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,int)[pri:0, instance:TestNGDataProvider.DataProvide@291ae]" started-at="2023-01-28T23:52:57 IST" name="testCaseData" data-provider="driveTest" finished-at="2023-01-28T23:52:57 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Bye]]>
+                <![CDATA[bye]]>
               </value>
             </param>
             <param index="1">
@@ -49,16 +49,16 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseData -->
-        <test-method signature="testCaseData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGDataProvider.DataProvidePlusDataFromExcel@77c2494c]" started-at="2023-01-23T23:39:33 IST" name="testCaseData" data-provider="driveTest" finished-at="2023-01-23T23:39:33 IST" duration-ms="3" status="PASS">
+        <test-method signature="testCaseData(java.lang.String,java.lang.String,int)[pri:0, instance:TestNGDataProvider.DataProvide@291ae]" started-at="2023-01-28T23:52:57 IST" name="testCaseData" data-provider="driveTest" finished-at="2023-01-28T23:52:57 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Solo]]>
+                <![CDATA[solo]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Call]]>
+                <![CDATA[call]]>
               </value>
             </param>
             <param index="2">
@@ -70,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseData -->
-      </class> <!-- TestNGDataProvider.DataProvidePlusDataFromExcel -->
+      </class> <!-- TestNGDataProvider.DataProvide -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

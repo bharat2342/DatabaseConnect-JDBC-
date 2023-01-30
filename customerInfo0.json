@@ -1,1 +1,7 @@
-{"courseName":"Appium","purchasedDate":"2023-01-19","location":"Asia","amount":99}
+{
+	"courseName": "Appium",
+	"purchasedDate": "2023-01-19",
+	"location": "Asia",
+	"amount": 99
+}
+
