@@ -1,76 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-28T23:52:57 IST" name="Default suite" finished-at="2023-01-28T23:52:57 IST" duration-ms="96">
+  <suite started-at="2023-02-24T15:07:21 IST" name="Default suite" finished-at="2023-02-24T15:07:21 IST" duration-ms="85">
     <groups>
     </groups>
-    <test started-at="2023-01-28T23:52:57 IST" name="Default test" finished-at="2023-01-28T23:52:57 IST" duration-ms="96">
-      <class name="TestNGDataProvider.DataProvide">
-        <test-method signature="testCaseData(java.lang.String,java.lang.String,int)[pri:0, instance:TestNGDataProvider.DataProvide@291ae]" started-at="2023-01-28T23:52:57 IST" name="testCaseData" data-provider="driveTest" finished-at="2023-01-28T23:52:57 IST" duration-ms="23" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hello]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[text]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-02-24T15:07:21 IST" name="Default test" finished-at="2023-02-24T15:07:21 IST" duration-ms="85">
+      <class name="ReadTxtFile.ToReadTxt">
+        <test-method signature="readTextFile()[pri:0, instance:ReadTxtFile.ToReadTxt@481a996b]" started-at="2023-02-24T15:07:21 IST" name="readTextFile" finished-at="2023-02-24T15:07:21 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCaseData -->
-        <test-method signature="testCaseData(java.lang.String,java.lang.String,int)[pri:0, instance:TestNGDataProvider.DataProvide@291ae]" started-at="2023-01-28T23:52:57 IST" name="testCaseData" data-provider="driveTest" finished-at="2023-01-28T23:52:57 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bye]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[message]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[143]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseData -->
-        <test-method signature="testCaseData(java.lang.String,java.lang.String,int)[pri:0, instance:TestNGDataProvider.DataProvide@291ae]" started-at="2023-01-28T23:52:57 IST" name="testCaseData" data-provider="driveTest" finished-at="2023-01-28T23:52:57 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[solo]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[call]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[453]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseData -->
-      </class> <!-- TestNGDataProvider.DataProvide -->
+        </test-method> <!-- readTextFile -->
+      </class> <!-- ReadTxtFile.ToReadTxt -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

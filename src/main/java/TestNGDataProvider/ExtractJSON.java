@@ -26,6 +26,7 @@ public class ExtractJSON
 	        {
 	        	System.out.println("user1: " + data.getUsername1());
 	        	System.out.println("password1: " + data.getPassword1());
+	        	System.out.println("user2: " + data.getUsername2());
 	            System.out.println("password2: " + data.getPassword2());
 	        }
 	        // Accessing JSON data
