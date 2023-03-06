@@ -53,7 +53,7 @@ public class DataDriven
 		k++;
 		
 		}
-		System.out.println(coloumn);
+		System.out.println(coloumn); //Till here we get the Column number and data from the Columns
 
 		////once coloumn is identified then scan entire testcase coloum to identify purchase testcase row
 		while(rows.hasNext())
